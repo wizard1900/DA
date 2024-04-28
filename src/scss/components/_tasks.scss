@@ -1,0 +1,48 @@
+.tasks {
+  background-color: var(--dark-color);
+  padding-top: 35px;
+  padding-bottom: 125px;
+
+
+  &__title {
+    font-size: 44px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+
+    & .strong {
+      color: var(--first-color);
+    }
+  }
+
+  &__tasks-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    padding: 20px;
+    padding-top: 100px;
+    width: 30%;
+    min-height: 500px;
+    background-color: var(--light-color);
+  }
+
+  &__item-title {
+    color: var(--dark-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__item-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+}
